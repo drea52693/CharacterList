@@ -3,7 +3,7 @@
 
     <item
         android:id="@+id/action_search"
-        android:title="Sample Title"
+        android:title="Search"
         android:icon="@drawable/ic_launcher_background"
         app:showAsAction="ifRoom|collapseActionView"
         app:actionViewClass="androidx.appcompat.widget.SearchView" />

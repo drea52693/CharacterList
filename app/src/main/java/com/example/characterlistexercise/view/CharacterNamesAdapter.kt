@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import com.example.characterlistexercise.R
+import com.example.characterlistexercise.model.CharacterModel
 
 class CharacterNamesAdapter(private val characterInfoList: List<CharacterModel>, private val listener: OnItemClickListener) :
     RecyclerView.Adapter<CharacterNamesAdapter.CharacterViewHolder>() {

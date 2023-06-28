@@ -1,4 +1,4 @@
-package com.example.characterlistexercise.view
+package com.example.characterlistexercise.model
 
 import android.os.Parcel
 import android.os.Parcelable
@@ -8,8 +8,7 @@ class CharacterModel(var title: String?, var imageUrl: String?, var description:
         parcel.readString(),
         parcel.readString(),
         parcel.readString()
-    ) {
-    }
+    )
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeString(title)
@@ -30,5 +29,4 @@ class CharacterModel(var title: String?, var imageUrl: String?, var description:
             return arrayOfNulls(size)
         }
     }
-
 }

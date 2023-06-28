@@ -10,7 +10,4 @@ interface ApiService {
     @GET("/?q=simpsons+characters&format=json")
     fun getCharacters(): Call<CharacterResponse>
 
-    @GET("/i/4d663a85.gif")
-    fun getImage(): Call<String>
-
 }

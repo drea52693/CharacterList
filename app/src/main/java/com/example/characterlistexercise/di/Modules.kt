@@ -15,12 +15,3 @@ val viewModelModule = module {
         MainViewModel(get())
     }
 }
-
-val apiModule = module {
-    single {
-        Retrofit.Builder()
-            .addConverterFactory(GsonConverterFactory.create(get()))
-            .client(get())
-            .build()
-    }
-}
